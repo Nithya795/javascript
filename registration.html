@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+<title>Register Now!</title>
+<style type="text/css">
+.myTable{ 
+border-radius: 15px;
+background-color:white;
+margin-top: 20px;
+margin-left:50px;
+height: 500px;
+width: 500px;
+padding-left: 20px;
+padding-bottom:20px;
+font-family: cursive;
+}
+
+.items{
+font-size: large;
+font-weight: 700;
+}
+
+.myColor{
+background: linear-gradient(#FFB88C, #DE6262);
+}
+
+.imgside{
+margin-top: 20px;
+height:500px;
+width:800px;
+margin-right: 20px;
+}
+
+
+/* Split the screen in half */
+.split1 {
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+.split2 {
+  height: 100%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  }
+
+.right {
+  right: 0;
+}
+
+.signup{
+
+}
+
+</style>
+</head>
+<body>
+
+<div class="split1 left myColor" align="left">
+<form class="myForm">
+<table border="0" class="myTable">
+<tr>
+	<td class="signup">
+	<h1>SignUp</h1>
+	</td>
+</tr>
+<tr>
+<td class="items">1. Personal info</td>
+</tr>
+<tr>
+	<td>Email
+	</td>
+	<td>
+	<input type="text"></input>
+	</td>
+</tr>
+<tr>
+	<td>Phone Number</td>
+	<td>
+	<input type="text"></input>
+	</td>
+</tr>
+<tr>
+	<td>Gender </td>
+	<td>
+   	<input type="radio" name="gender" value="male">Male
+  	<input type="radio" name="gender" value="female">Female  
+  	<input type="radio" name="gender" value="other">Other
+	</td>
+</tr>
+<tr>
+<td class="items">2. SetPassword</td>
+</tr>
+<tr><td>Enter a password</td>
+<td><input type="text"></input> </td>
+</tr>
+<tr><td>Confirm password</td>
+<td><input type="text"></input> </td>
+</tr>
+</table>
+
+</form>
+</div>
+<div class="split2 right myColor" align="right">
+<img class="imgside" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
+</div>
+
+
+</body>
+</html>
