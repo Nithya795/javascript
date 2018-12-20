@@ -2,94 +2,19 @@
 <hmtl>
 <head>
 <title>Apply Now!</title>
-<style type="text/css">
-
-.items{
-font-size: large;
-font-weight: 700;
-margin-right: 160px;
-}
-
-.items1{
-font-size: medium;
-font-weight: 700;
-margin-right: 245px;
-}
-.myColor{
-background: linear-gradient(#D3D3D3, #696969);
-top:0;
- height: 100%;
-  width: 100%;
-  position: fixed;
-  left:0;   
-}
-h1{
-padding-top:10px;
-color:MediumSeaGreen;
-}
-
-.textAreaStyle{
-background-color:WhiteSmoke;
-border-radius: 3px;
-border-style:none;
-margin-left: 85px;
-width:300px;
-}
-.textStyle{
-background-color:WhiteSmoke;
-border-radius: 3px;
-border-style:none;
-width: 300px;
-height: 40px;
-margin-left: 85px;
-}
-.numberStyle{
-background-color:MediumSeaGreen	;
-border-radius:15px 30px 30px 2px;
-padding:8px;
-color: white;
-}
-
-.applyBox{
-border-radius:5px;
-border-style: none;
-background-color: white;
-height:540px;
-width:480px;
-margin-top: 47px;
-margin-left: 425px;
-}
-.dropStyle{
-background-color:LightGrey;
-border-radius: 3px;
-border-style:none;
-margin-left: 85px;
-width: 300px;
-height: 40px;
-}
-
-.buttonStyle{
-background-color: MediumSeaGreen;
-color: white;
-border-style: none;
-height:50px;
-width:305px;
-margin-left: 85px;
-}
-</style>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
-
 <div class="myColor">
 <form class="myForm">
 <div class="applyBox" align="center">
-<h1>Apply Now</h1>
+<h1>Join Now</h1>
 <div class="items"><span class="numberStyle">1</span> Candidate Info</div></br>
 <div class="items1">
-<input class="textStyle" type="text" placeholder="Your Name *">
+<input id="sname" name="sname" class="textStyle" type="text" placeholder="Your Name *">
 </div></br>
 <div class="items1">
-<input class="textStyle" type="text" placeholder="Your Email *">
+<input id="smail" name="smail" class="textStyle" type="email" placeholder="Your Email *">
 </div></br>
 <div class="items1">
 Interests:<br></br>
@@ -103,15 +28,15 @@ Interests:<br></br>
 </div><br></br>
 <div class="items"><span class="numberStyle">2</span> Additional Info</div></br>
 <div class="items1">
-<textarea class="textAreaStyle" rows="4" cols="50" placeholder="About Your School">
+<textarea class="textAreaStyle" rows="4" cols="50" placeholder="About your school">
 </textarea>
 </div></br>
 <div class="items1">
-<input class="buttonStyle" type="button" value="Apply">
+<input id="submit" name="submit" class="buttonStyle" type="button" value="Apply" onclick="applyFunc()">
 </div>
 </div>
 </form>
 </div>
-
+<script src="applyNowValidations.js"> </script>
 </body>
 </html>
