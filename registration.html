@@ -5,33 +5,28 @@
 <style type="text/css">
 .myTable{ 
 border-radius: 15px;
-margin-top: 20px;
+margin-top: 40px;
 margin-left:50px;
-height: 500px;
+height: 520px;
 width: 500px;
-padding-left: 20px;
+padding-left: 10px;
 padding-bottom:20px;
-font-family: cursive;
+background-color: white;
 }
-
 .items{
-font-size: large;
+font-size: x-large;
 font-weight: 700;
 color: DarkRed;
 }
-
 .myColor{
 background: linear-gradient(#FFB88C, #DE6262);
 }
-
 .imgside{
 margin-top: 20px;
 height:520px;
 width:800px;
 margin-right: 20px;
 }
-
-
 /* Split the screen in half */
 .split1 {
   height: 100%;
@@ -40,7 +35,6 @@ margin-right: 20px;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-
 }
 .split2 {
   height: 100%;
@@ -51,20 +45,15 @@ margin-right: 20px;
   overflow-x: hidden;
   padding-top: 20px;
 }
-
 .left {
   left: 0;
   }
-
 .right {
   right: 0;
 }
-
 h1{
-padding-left:235px;
 color: DarkRed;
 }
-
 .textstyle{
 background:transparent;
 border: 1px ridge IndianRed;
@@ -74,14 +63,18 @@ width: 200px;
 height: 25px;
 }
 
-.numberStyle{
-
-background-color:Crimson;
-border-radius:15px 50px 20px 5px;
-padding:7px;
+.submitButton{
+border-style:none;
+float:right;
+border-radius: 5px;
+padding:6px;
+padding-left: 8px;
+padding-right: 8px;
+background-color: IndianRed;
+color:white;
+font-size: 15px;
+margin-right: 65px;
 }
-
-
 </style>
 </head>
 <body>
@@ -89,26 +82,25 @@ padding:7px;
 <div class="split1 left myColor" align="left">
 <form class="myForm">
 <table border="0" class="myTable">
-<h1>SignUp</h1>
-
+<tr><td><h1>Sign Up</h1></td></tr>
 <tr>
-<td class="items"><span class="numberStyle">1</span>Personal info</td>
+<td class="items">Personal info</td>
 </tr>
 <tr>
-	<td>Email
+	<td>EMAIL
 	</td>
 	<td>
 	<input class="textstyle" type="text"></input>
 	</td>
 </tr>
 <tr>
-	<td>Phone Number</td>
+	<td>PHONE NUMBER</td>
 	<td>
 	<input class="textstyle" type="text"></input>
 	</td>
 </tr>
 <tr>
-	<td>Gender </td>
+	<td>GENDER </td>
 	<td>
    	<input type="radio" name="gender" value="male">Male
   	<input type="radio" name="gender" value="female">Female  
@@ -116,13 +108,21 @@ padding:7px;
 	</td>
 </tr>
 <tr>
-<td class="items"><span class="numberStyle">2</span>Set Password</td>
+<td class="items">Set Password</td>
 </tr>
-<tr><td>Enter a password</td>
+<tr><td>PASSWORD</td>
 <td><input class="textstyle" type="password"></input> </td>
 </tr>
-<tr><td>Confirm password</td>
+<tr><td>CONFIRM PASSWORD</td>
 <td><input class="textstyle" type="password"></input> </td>
+</tr>
+<tr>
+<td>
+<input class="submitButton" type="hidden" value="Submit"></input>
+</td>
+<td>
+<input class="submitButton" type="button" value="Submit"></input>
+</td>
 </tr>
 </table>
 
