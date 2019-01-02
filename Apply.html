@@ -11,11 +11,13 @@
 <h1>Join Now</h1>
 <div class="items"><span class="numberStyle">1</span> Candidate Info</div></br>
 <div class="items1">
-<input id="sname" name="sname" class="textStyle" type="text" placeholder="Your Name *">
-</div></br>
+<input id="sname" name="sname" class="textStyle" type="text" placeholder="Your Name *" onkeypress="changeBorder(this)">
+<div id="sname_error" name="sname_error" class="errorStyle"></div>
+</div>
 <div class="items1">
-<input id="smail" name="smail" class="textStyle" type="email" placeholder="Your Email *">
-</div></br>
+<input id="smail" name="smail" class="textStyle" type="email" placeholder="Your Email *" onkeypress="changeBorder(this)">
+<div id="smail_error" name="smail_error" class="errorStyle"></div>
+</div>
 <div class="items1">
 Interests:<br></br>
 <select class="dropStyle">
