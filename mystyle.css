@@ -5,12 +5,12 @@ font-weight: 700;
 margin-right: 160px;
 }
 
-.items1{
+.items-inside{
 font-size: medium;
 font-weight: 700;
 margin-right: 245px;
 }
-.myColor{
+.my-color{
 background: linear-gradient(#D3D3D3, #696969);
 top:0;
 height: 100%;
@@ -23,6 +23,7 @@ padding-top:10px;
 color:MediumSeaGreen;
 }
 
+<<<<<<< HEAD
 .errorStyle{
 color:red;
 font-size:14px;
@@ -33,6 +34,9 @@ width:200px;
 }
 
 .textAreaStyle{
+=======
+.textarea-style{
+>>>>>>> d62f936ae97233b548243509dfc2d6746a815995
 background-color:WhiteSmoke;
 border-radius: 3px;
 border-style:none;
@@ -41,7 +45,7 @@ width:300px;
 padding-left:10px;
 padding-top: 8px;
 }
-.textStyle{
+.text-style{
 background-color:WhiteSmoke;
 border-radius: 3px;
 border-style:none;
@@ -50,14 +54,14 @@ height: 40px;
 margin-left: 85px;
 padding-left:10px;
 }
-.numberStyle{
+.number-style{
 background-color:MediumSeaGreen	;
 border-radius:30px 30px 30px 2px;
 padding:6px 11px;
 color: white;
 }
 
-.applyBox{
+.apply-box{
 border-radius:5px;
 border-style: none;
 background-color: white;
@@ -66,7 +70,7 @@ width:480px;
 margin-top: 25px;
 margin-left: 425px;
 }
-.dropStyle{
+.drop-style{
 background-color:LightGrey;
 border-radius: 3px;
 border-style:none;
@@ -76,7 +80,7 @@ height: 40px;
 padding-left:9px;
 }
 
-.buttonStyle{
+.button-style{
 background-color: MediumSeaGreen;
 color: white;
 border-style: none;
