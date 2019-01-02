@@ -23,6 +23,15 @@ padding-top:10px;
 color:MediumSeaGreen;
 }
 
+.errorStyle{
+color:red;
+font-size:14px;
+padding-top:6px;
+padding-bottom:6px;
+visibility:hidden;
+width:200px;
+}
+
 .textAreaStyle{
 background-color:WhiteSmoke;
 border-radius: 3px;
@@ -52,9 +61,9 @@ color: white;
 border-radius:5px;
 border-style: none;
 background-color: white;
-height:540px;
+height:570px;
 width:480px;
-margin-top: 47px;
+margin-top: 25px;
 margin-left: 425px;
 }
 .dropStyle{
