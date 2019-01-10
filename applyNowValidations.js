@@ -1,10 +1,11 @@
 var sname=document.getElementById('sname');
-	var smail=document.getElementById('smail');
-	var sname_error=document.getElementById('sname_error');
-	var smail_error=document.getElementById('smail_error');
+var smail=document.getElementById('smail');
+var sname_error=document.getElementById('sname_error');
+var smail_error=document.getElementById('smail_error');
+	
 function applyFunc(){
 	var alphaReg=/^[A-Za-z\s]+$/;
-	var emailReg=/^\w+.@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+	var emailReg=/^[A-Za-z0-9]+[.]{0,1}\w*@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 	if(sname.value==""){
 		sname.style.border= "1px solid red";
 		sname_error.textContent= "Candidate Name required";
@@ -33,6 +34,8 @@ function applyFunc(){
 		smail_error.style.visibility= "visible";
 		smail.focus();
 		return false;
+	}else{
+	alert('Success');
 	}
 }
 
